@@ -1,6 +1,4 @@
-﻿  Sanctam3Project.cpp
-d:\ebichan\documents\sanctam3\sanctam3project\sanctam3project\sanctam3project.cpp(52): warning C4101: 'dwExecLastTime': ローカル変数は 1 度も使われていません。
-d:\ebichan\documents\sanctam3\sanctam3project\sanctam3project\sanctam3project.cpp(50): warning C4101: 'dwFrameCount': ローカル変数は 1 度も使われていません。
-d:\ebichan\documents\sanctam3\sanctam3project\sanctam3project\sanctam3project.cpp(53): warning C4101: 'dwFPSLastTime': ローカル変数は 1 度も使われていません。
-d:\ebichan\documents\sanctam3\sanctam3project\sanctam3project\sanctam3project.cpp(51): warning C4101: 'dwCurrentTime': ローカル変数は 1 度も使われていません。
+﻿  Manager.cpp
+  Sanctam3Project.cpp
+  コードを生成中...
   Sanctam3Project.vcxproj -> D:\ebichan\Documents\Sanctam3\Sanctam3Project\Debug\Sanctam3Project.exe
