@@ -1,4 +1,7 @@
 #pragma once
+
+#include "Sanctam3Project.h"
+
 class CRenderer
 {
 public:
@@ -12,6 +15,7 @@ public:
     void DrawEnd();
     LPDIRECT3DDEVICE9 GetDevice();
 
+private:
     LPDIRECT3D9 m_pD3D;
     LPDIRECT3DDEVICE9 m_pD3DDevice;
 

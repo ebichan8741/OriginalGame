@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "Sanctam3Project.h"
 #include "Renderer.h"
 
 
