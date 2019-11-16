@@ -149,23 +149,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Manager.h" />
-    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Source\Manager.h" />
+    <ClInclude Include="Source\Mode.h" />
+    <ClInclude Include="Source\Renderer.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="Sanctam3Project.h" />
-    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Source\Sanctam3Project.h" />
+    <ClInclude Include="Source\Scene.h" />
+    <ClInclude Include="Source\Scene2D.h" />
+    <ClInclude Include="Source\stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Source\TextureManager.h" />
+    <ClInclude Include="Source\TitleMode.h" />
+    <ClInclude Include="Source\TitleUI.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Manager.cpp" />
-    <ClCompile Include="Renderer.cpp" />
-    <ClCompile Include="Sanctam3Project.cpp" />
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="Source\Manager.cpp" />
+    <ClCompile Include="Source\Mode.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\Sanctam3Project.cpp" />
+    <ClCompile Include="Source\Scene.cpp" />
+    <ClCompile Include="Source\Scene2D.cpp" />
+    <ClCompile Include="Source\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Source\TextureManager.cpp" />
+    <ClCompile Include="Source\TitleMode.cpp" />
+    <ClCompile Include="Source\TitleUI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Sanctam3Project.rc" />
