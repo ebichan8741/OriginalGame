@@ -149,6 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Source\SceneModel.h" />
     <ClInclude Include="Source\Scene3D.h" />
     <ClInclude Include="Source\Input.h" />
     <ClInclude Include="Source\Manager.h" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Source\TitleUI.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\SceneModel.cpp" />
     <ClCompile Include="Source\Scene3D.cpp" />
     <ClCompile Include="Source\Input.cpp" />
     <ClCompile Include="Source\Manager.cpp" />
